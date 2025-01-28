@@ -196,19 +196,19 @@ app.get("/", (req, res) => {
           <h2>How It Works</h2>
           <div class="steps-container">
             <div class="step">
-              <img src="https://cdn.discordapp.com/attachments/1326496756913012736/1331635429698699264/Edit_Account.png?ex=679255a3&is=67910423&hm=297e37c876bb5cbda93761fe544e3b2bebe59b96398c2d079bcc80f1f5fa70e9&" alt="Create Account" />
+              <img src="https://cdn.discordapp.com/attachments/1326441737387769926/1333803826779525130/Edit_Account.png?ex=679a391d&is=6798e79d&hm=2dcd72ec1d8e80b2c7c23a6514b3770a2fc2d373c6b66a1817c91c65aee849fd&" alt="Create Account" />
               <p>Create Account & Choose Your Plan</p>
             </div>
             <div class="step">
-              <img src="https://cdn.discordapp.com/attachments/1326496756913012736/1331635429941710938/Upload_to_Cloud.png?ex=679255a3&is=67910423&hm=49b428e834e7cab58ee62caed79e1541fb011691a6433c090f50ba22d48c7c8f&" alt="Upload Videos" />
+              <img src="https://cdn.discordapp.com/attachments/1326441737387769926/1333803827043897396/Upload_to_Cloud.png?ex=679a391d&is=6798e79d&hm=545167cb2305b2d997f4fab76bc76edce63f734488045d6c5152cd56ca101274&" alt="Upload Videos" />
               <p>Upload Your Pre-Recorded Videos</p>
             </div>
             <div class="step">
-              <img src="https://cdn.discordapp.com/attachments/1326496756913012736/1331635430256545902/Key.png?ex=679255a3&is=67910423&hm=b4449ec58c0ed9cae1f15b7b267ec8f3cc036c73ad9fd581013aa7a8b862b14f&" alt="Stream Key" />
+              <img src="https://cdn.discordapp.com/attachments/1326441737387769926/1333803827383767082/Key.png?ex=679a391d&is=6798e79d&hm=11a55b15809774ccd45d8cbce2e98458a6971dfb8f4c880053b660497c576695&" alt="Stream Key" />
               <p>Set Your Live Stream Key</p>
             </div>
             <div class="step">
-              <img src="https://cdn.discordapp.com/attachments/1326496756913012736/1331635430600474728/Natural_User_Interface_2.png?ex=679255a3&is=67910423&hm=e3064578a3b9c70a0b691b3b35032ae14cb5b8d14603f69d62bb1f50a149b569&" alt="Start Streaming" />
+              <img src="https://cdn.discordapp.com/attachments/1326441737387769926/1333803827589025863/Natural_User_Interface_2.png?ex=679a391d&is=6798e79d&hm=b79aa9a1a59611b3886336f51013379ccba32b5e0d5048d5b107c2e5573323ff&" alt="Start Streaming" />
               <p>Just Click & Start Streaming</p>
             </div>
           </div>
