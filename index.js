@@ -188,7 +188,7 @@ app.get("/", (req, res) => {
         <div class="main-content">
           <div class="image-container">
             <!-- Add your image link here -->
-            <img src="https://go.livekaro.com/img/illustration-011.webp" alt="Streaming Flow" />
+            <img src="https://cdn.discordapp.com/attachments/1326441737387769926/1333804839540490381/illustration-011.png?ex=679a3a0e&is=6798e88e&hm=654980f7520749a7df7ecaae9fb1e6c20bf65a29a0a9d4447e65b98d8f8be8c0&" alt="Streaming Flow" />
           </div>
         </div>
 
