@@ -616,7 +616,7 @@ app.get('/login', (req, res) => {
 
 // Function to start a stream
 function startStream(filePath, streamKey) {
-    const ffmpegCommand = `ffmpeg -re -stream_loop -1 -i ${filePath} -vcodec libx264 -preset veryfast -crf 25 -c:a aac -b:a 96k -ar 44100 -maxrate 300k -bufsize 600k -g 60 -r 15 -s 640x360 -f flv "rtmp://a.rtmp.youtube.com/live2/${streamKey}"`;
+    const ffmpegCommand = `ffmpeg -re -stream_loop -1 -i ${filePath} -vcodec libx264 -preset veryfast -crf 25 -c:a aac -b:a 128k -ar 44100 -maxrate 1000k -bufsize 2000k -g 60 -r 15 -s 640x360 -f flv "rtmp://a.rtmp.youtube.com/live2/${streamKey}"`;
     const ffmpegProcess = spawn('bash', ['-c', ffmpegCommand]);
 
     ffmpegProcess.stdout.on('data', (data) => console.log(`FFmpeg stdout: ${data}`));
